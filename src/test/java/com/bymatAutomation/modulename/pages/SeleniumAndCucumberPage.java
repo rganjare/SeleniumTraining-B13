@@ -43,7 +43,8 @@ public class SeleniumAndCucumberPage extends TestBase {
 	@FindBy(xpath = "//*[text()=\"Selenium\"]")
 	private WebElement selenium_btn;
 	
-
+	@FindBy(xpath = "//*[text()=\"Selenium\"]")
+	private WebElement selenium_btn11;
 	
 	
 	public void verifyHomePageTitle() { // Non Static Method 
