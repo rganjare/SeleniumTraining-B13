@@ -11,6 +11,7 @@
       <class name="com.bymatAutomation.modulename.testcases.VerifyHomePageOfBymatAutomation"/> 
       <class name="com.bymatAutomation.modulename.testcases.VerifyHomePageOfBymatAutomation1"/> 
       <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining"/>
+      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
