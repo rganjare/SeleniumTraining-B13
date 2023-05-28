@@ -49,6 +49,8 @@ public class CommonMethods extends TestBase {
 	
 	public static void selectValueByIndex(WebElement element, int index, String message) {
 		
+		// code here to select value from the Drop down box with index value 
+		
 	}
 	
 	public static void selectValueByVisibleText(WebElement element, int text, String message) {

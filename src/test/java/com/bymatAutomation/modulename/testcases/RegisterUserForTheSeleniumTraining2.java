@@ -25,6 +25,8 @@ public class RegisterUserForTheSeleniumTraining2 extends TestBase {
 	public static void registerUserForTheSeleniumTraining2(Hashtable<String, String> htData) throws InterruptedException { // Test Step and Verification Points 	
 
 	hp.navigateToInquireRegisterPage().enterUserDetails(htData);
+	
+	// Adding new Step to the Test case
 
 	}
 	
