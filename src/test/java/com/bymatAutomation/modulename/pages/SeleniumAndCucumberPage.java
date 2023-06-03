@@ -46,6 +46,8 @@ public class SeleniumAndCucumberPage extends TestBase {
 	@FindBy(xpath = "//*[text()=\"Selenium\"]")
 	private WebElement selenium_btn11;
 	
+	@FindBy(xpath = "//*[text()=\"Selenium\"]")
+	private WebElement selenium_btn1111;
 	
 	public void verifyHomePageTitle() { // Non Static Method 
 		// I need to create Object of this class to access Non Static method
