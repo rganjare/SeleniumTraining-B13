@@ -55,6 +55,7 @@ public class CommonMethods extends TestBase {
 	
 	public static void selectValueByVisibleText(WebElement element, int text, String message) {
 		
+		// code here to  select Value By Visible Text from the Drop down box with index value 
 	}
 	
 }
