@@ -55,6 +55,14 @@ public class CommonMethods extends TestBase {
 	
 	public static void selectValueByVisibleText(WebElement element, int text, String message) {
 		
+		// code here to select value from the Drop down box with index value // 
+		// Both
+	}
+	
+	public static void switchToWindow(WebElement element, int text, String message) {
+		
+		// code here to select value from the Drop down box with index value //Shrikant
+
 	}
 	
 }

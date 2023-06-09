@@ -45,7 +45,7 @@ public class InquireRegisterPage extends TestBase {
 	@FindBy(xpath = "//*[@id=\"wpforms-1830-field_10_2\"]")
 	private WebElement devOpsCheckBox;
 	
-	@FindBy(xpath = "//*[@id=\"wpforms-1830-field_2223323\"]")
+	@FindBy(xpath = "//*[@id=\"wpforms-1830-field_2\"]")
 	private WebElement message;
 	
 	@FindBy(xpath = "//*[@id=\"wpforms-submit-1830\"]")
