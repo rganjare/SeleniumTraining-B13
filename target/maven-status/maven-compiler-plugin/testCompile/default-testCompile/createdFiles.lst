@@ -1,12 +1,12 @@
 com\bymatAutomation\modulename\testcases\VerifyHomePageOfBymatAutomation.class
 com\bymatAutomation\modulename\playground\ExcelReadingAndWriting.class
+com\bymatAutomation\modulename\pages\SeleniumAndCucumberPage.class
+com\bymatAutomation\modulename\testbase\TestBase.class
+com\bymatAutomation\modulename\pages\InquireRegisterPage.class
 com\bymatAutomation\modulename\testcases\RegisterUserForTheSeleniumTraining.class
 com\bymatAutomation\modulename\testcases\RegisterUserForTheSeleniumTraining2.class
-com\bymatAutomation\modulename\pages\SeleniumAndCucumberPage.class
 com\bymatAutomation\modulename\listeners\Listeners.class
 com\bymatAutomation\modulename\commonmethods\CommonMethods.class
-com\bymatAutomation\modulename\testbase\TestBase.class
 com\bymatAutomation\modulename\pages\HomePage2.class
 com\bymatAutomation\modulename\pages\HomePage.class
-com\bymatAutomation\modulename\pages\InquireRegisterPage.class
 com\bymatAutomation\modulename\testcases\VerifyHomePageOfBymatAutomation1.class
