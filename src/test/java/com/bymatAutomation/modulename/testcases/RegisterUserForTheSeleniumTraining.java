@@ -29,14 +29,4 @@ public class RegisterUserForTheSeleniumTraining extends TestBase {
 	}
 	
 	
-	
-//	@DataProvider
-//	public Object[][] data_Collection() {
-//		
-//		DataCollection dc = new DataCollection(excel, "Test_Data", "RegisterUserForTheSeleniumTraining");
-//			
-//		return dc.dataArray();
-//		
-//	}
-	
 }
