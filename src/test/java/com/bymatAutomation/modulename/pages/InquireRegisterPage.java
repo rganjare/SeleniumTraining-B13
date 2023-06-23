@@ -101,6 +101,16 @@ public class InquireRegisterPage extends TestBase {
 	}
 
 	
+	public InquireRegisterPage verifypage() { // Non Static Method 
+		// I need to create Object of this class to access Non Static method
+		
+		System.out.println(driver.getTitle()); 
+		
+		Assert.assertEquals(driver.getTitle(), "BYMAT Automation - Boost your Mind with Automation Technology");
+		
+		return this;
+			
+	}
 	
 
 }

@@ -16,8 +16,7 @@ public class Listeners extends TestBase implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 
-	System.out.println("Test case is passed");
-	
+	test.log(LogStatus.PASS, "Test case is passed");
 	teardown();
 	}
 

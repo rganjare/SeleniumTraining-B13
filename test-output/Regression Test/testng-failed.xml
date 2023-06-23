@@ -6,30 +6,22 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining">
+      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining4">
         <methods>
-          <include name="registerUserForTheSeleniumTraining"/>
           <include name="setup"/>
           <include name="isSkip"/>
           <include name="endTest"/>
+          <include name="registerUserForTheSeleniumTraining4"/>
         </methods>
-      </class> <!-- com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining -->
-      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining2">
+      </class> <!-- com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining4 -->
+      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining5">
         <methods>
           <include name="setup"/>
-          <include name="registerUserForTheSeleniumTraining2" invocation-numbers="0"/>
-          <include name="isSkip"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining2 -->
-      <class name="com.bymatAutomation.modulename.testcases.VerifyHomePageOfBymatAutomation1">
-        <methods>
-          <include name="setup"/>
-          <include name="verifyHomePageOfBYMATAutomation1"/>
           <include name="endTest"/>
           <include name="isSkip"/>
+          <include name="registerUserForTheSeleniumTraining5"/>
         </methods>
-      </class> <!-- com.bymatAutomation.modulename.testcases.VerifyHomePageOfBymatAutomation1 -->
+      </class> <!-- com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining5 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Regression Test] -->

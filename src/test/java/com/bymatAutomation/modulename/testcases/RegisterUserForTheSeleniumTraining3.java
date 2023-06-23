@@ -24,11 +24,8 @@ public class RegisterUserForTheSeleniumTraining3 extends TestBase {
 	@Test (dataProvider = "data_Collection")
 	public static void registerUserForTheSeleniumTraining3(Hashtable<String, String> htData) throws InterruptedException { // Test Step and Verification Points 	
 
-	hp.navigateToInquireRegisterPage().enterUserDetails(htData);
-	
-	// Adding new Step to the Test case
+	hp.navigateToInquireRegisterPage().enterUserDetails(htData).verifypage();
 
+		}
+	
 	}
-	
-	
-}

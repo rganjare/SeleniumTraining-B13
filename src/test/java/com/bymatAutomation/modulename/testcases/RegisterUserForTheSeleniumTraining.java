@@ -23,20 +23,11 @@ public class RegisterUserForTheSeleniumTraining extends TestBase {
 	
 	@Test (dataProvider = "data_Collection")
 	public static void registerUserForTheSeleniumTraining(Hashtable<String, String> htData) throws InterruptedException { // Test Step and Verification Points 	
-	//test = reports.startTest("RegisterUserForTheSeleniumTraining");
-	hp.navigateToInquireRegisterPage().enterUserDetails(htData);
+	
+		hp.navigateToInquireRegisterPage().enterUserDetails(htData);
 
 	}
 	
 	
-	
-//	@DataProvider
-//	public Object[][] data_Collection() {
-//		
-//		DataCollection dc = new DataCollection(excel, "Test_Data", "RegisterUserForTheSeleniumTraining");
-//			
-//		return dc.dataArray();
-//		
-//	}
-	
+
 }

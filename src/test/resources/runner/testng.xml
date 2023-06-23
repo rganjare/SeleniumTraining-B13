@@ -6,12 +6,15 @@
     <listener class-name="com.bymatAutomation.modulename.listeners.Listeners"/>
  	 </listeners>
 
-  <test thread-count="5" name="Test">
+  <test name="Test">
     <classes>
       <class name="com.bymatAutomation.modulename.testcases.VerifyHomePageOfBymatAutomation"/> 
       <class name="com.bymatAutomation.modulename.testcases.VerifyHomePageOfBymatAutomation1"/> 
       <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining"/>
       <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining2"/>
+      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining3"/>
+      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining4"/>
+      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining5"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

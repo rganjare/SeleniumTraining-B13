@@ -15,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Wait;
@@ -85,6 +86,8 @@ public class TestBase {  /// Heart or Engine of the Framework
 		if(config.getProperty("browser").equalsIgnoreCase("Chrome")) {
 			ChromeOptions ops = new ChromeOptions();
 			ops.addArguments("--remote-allow-origins=*");
+			//ops.addArguments("--headless=new");
+			//ops.setHeadless(true);    // Sel 3.xx
 			WebDriverManager.chromedriver().setup();  	// Sel 4.0
 		    driver = new ChromeDriver(ops);
 		} else if(config.getProperty("browser").equalsIgnoreCase("edge")){
